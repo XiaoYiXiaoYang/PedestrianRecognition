@@ -1,0 +1,202 @@
+/*主页面  视频摄像头*/
+/*QTabWidget{
+	color:rgb(0,0,0);
+	background-color:#FF0000;
+}
+
+QWidget{
+	color:rgb(1,0,0);
+	background-color:rgb(247,246,246);
+}
+
+QTabWidget::pane {
+	border-color: rgb(180,180,180);
+	background-color:rgb(247,246,246);
+	border-style: solid;
+	border-width: 1px;
+  	border-radius: 6px;
+}*/
+
+QLabel#labelVideoHead
+{
+	background-color:#D1EEEE;
+}
+QLabel#labelShowVideo
+{
+	background-color:#8B8970;
+}
+
+QLabel#labelMsgHead
+{
+	margin:20px;
+	background-color:#D1EEEE;
+}
+QLabel#labelShowMsg
+{
+	background-color:#C1FFC1;
+	color:#EE6A50;
+}
+
+QFrame#frameLeft
+{
+	background-color:#FFF;
+}
+QFrame#frameControl
+{
+	background-color:#8B8B83;
+}
+
+
+
+QPushButton#btnOpenFile
+{
+	background-image:url(:/pic/button/file.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnOpenCamera
+{
+    background-image:url(:/pic/button/camera.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnPause[status = pause]
+{
+    background-image:url(:/pic/button/pause.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnPause[status = play]
+{
+    background-image:url(:/pic/button/play.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnStop[status = stop]
+{
+    background-image:url(:/pic/button/stop.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnStop[status = start]
+{
+    background-image:url(:/pic/button/pause.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnFullScreen[status = full]
+{
+    background-image:url(:/pic/button/full_screen.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnFullScreen[status = exit_full]
+{
+    background-image:url(:/pic/button/exit_full_screen.png);
+	background-color:#E0E0E0;
+}
+
+/*列表模型视图*/
+QListView
+{
+	border:0px solid #CFCFCF;
+	/*border-radius:5px;*/
+	color:rgb(0,0,0);
+	background-color:#F7F6F2;
+}
+QListView::Item
+{
+	padding-top:15px;
+	padding-bottom:15px; 
+}                          
+QListView::Item:hover
+{
+	background:#E0E0E0; 
+}                           
+QListView::item:selected
+{
+	background:#E0E0E0;
+}                          
+QListView::item:selected:!active
+{
+	border-width:0px; 
+	background:lightgreen;
+}
+/*ListWidget*/
+QListWidget
+{
+	border:5px solid #CFCFCF;
+	border-radius:5px;
+	/*background-color:#E0E0E0;
+	color:#E0E0E0;   字体颜色和背景色一样*/
+	
+	color:rgb(0,0,0);
+	background-color:rgb(247,246,246);
+}
+QListWidget::Item
+{
+	padding-top:10px;
+	padding-bottom:220px; 
+}                          
+QListWidget::Item:hover
+{
+	background:#E0E0E0;
+	color:#E0E0E0;	
+}                           
+QListWidget::item:selected
+{
+	background:#E0E0E0;
+	color:#E0E0E0; 
+}                          
+QListWidget::item:selected:!active
+{
+	border-width:0px; 
+	background:#E0E0E0;
+	color:#E0E0E0;
+}
+
+/*QTableWidget*/
+QTableWidget
+{
+    color:green;    /*前景色：文字颜色*/
+    gridline-color:white;        /*表格中的网格线条颜色*/
+    background:white;
+    /*设置交替颜色，需要在函数属性中设置:tableWidget->setAlternatingRowColors(true)*/
+    /*alternate-background-color:red;   */
+    selection-color:red;    /*鼠标选中时前景色：文字颜色*/
+    selection-background-color:lightgray;   /*鼠标选中时背景色*/
+    border:1px solid gray;  /*边框线的宽度、颜色*/
+    /*border:none;*/    /*去除边界线*/
+    /*border-radius:5px;*/
+    /*padding:10px 10px;*/  /*表格与边框的间距*/
+}
+
+/*卡片*/
+QPushButton#btnSrc
+{
+    background-image:url(:/pic/button/src.png);
+	background-color:#E0E0E0;
+}
+
+QPushButton#btnTime
+{
+    background-image:url(:/pic/button/time.png);
+	background-color:#E0E0E0;
+}
+
+QLabel#labelSnapPic
+{
+	background-color:#666666;
+}
+
+/*详情*/
+QLabel#labelBigPic
+{
+	background-color:#EDEDED;
+}
+
+
+
+
+
+

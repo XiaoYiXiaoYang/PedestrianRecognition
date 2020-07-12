@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/button/file.png</file>
+        <file>pic/button/pause.png</file>
+        <file>pic/button/play.png</file>
+        <file>pic/button/camera.png</file>
+        <file>pic/button/full_screen.png</file>
+		<file>pic/button/exit_full_screen.png</file>
+		<file>pic/button/src.png</file>
+        <file>pic/button/time.png</file>
+		<file>pic/button/stop.png</file>
+		<file>pic/button/mp4.png</file>
+    </qresource>
+</RCC>
